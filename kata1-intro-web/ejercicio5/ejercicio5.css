@@ -1,0 +1,67 @@
+main{
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 1fr 8fr;
+    grid-template-rows: 4fr 1fr 2fr 1fr 4fr;
+    width: 380px;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.rojo{
+    background-color: red;
+}
+.blanco{
+    background-color: white;
+}
+.azul{
+    background-color: blue;
+}
+
+
+.bandera-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
+}
+.grande{
+    height: 100px;
+}
+.delgada{
+    height: 20px;
+}
+.medio{
+    height: 40px;
+}
+
+.col{
+    height: 100%;
+}
+
+.col-1{
+    width: 100px;
+    height: 100%;
+}
+.col-2{
+    width: 20px;
+    height: 100%;
+}
+.col-3{
+    width: 40px;
+    height: 100%;
+}
+.col-4{
+    width: 20px;
+    height: 100%;
+}
+.col-5{
+    width: 200px;
+    height: 100%;
+}
